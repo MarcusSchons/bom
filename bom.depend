@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1706536760 source:z:\informatik 2\libary\bom\bom_test.cpp
+	<tau/tau.h>
+	<iostream>
+	<String>
+	"bom.h"
+
+1706536705 z:\informatik 2\libary\bom\bom.h
+	"part.h"
+	<list>
+
+1706537058 z:\informatik 2\libary\bom\part.h
+	<string>
+
