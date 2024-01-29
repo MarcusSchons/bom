@@ -13,6 +13,7 @@ TEST(bom, basics)
 
     b1.l.push_back(p);
     b1.l.push_back(p2);
+    b1.l.sort();
 
     std::cout << "The partlist Contains: " << std::endl;
     for (bom::part_list::iterator it = b1.l.begin(); it != b1.l.end(); ++it){
