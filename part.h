@@ -20,6 +20,8 @@ public:
     uint32_t get_id() const {return id;}
     std::string get_name() const {return name;}
     uint32_t get_number() const {return number;}
+    bool operator==(part &p) {return id==p.id;}
+    bool operator<(part &p) {return id<p.id;}
 };
 
 #endif // PART_H_INCLUDED
